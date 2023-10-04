@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    align-items: center;
+    
+}
+.logo{
+    width: 20%;
+}
+nav{
+    width: 50%;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+   margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    padding: 6px 10px;
+    margin: 6px 10px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+   
+    border-radius: 7px;
+
+}
+.banner{
+    width: 90%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+    margin: auto;
+}
+.wikkend{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+
+}
+.wikkend h4{
+    color: b4ad9e;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wikkend h1{
+    color: #626262;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+   
+}
+.wikkend p{
+    color: #626262;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.wikkend a{
+    text-decoration: none;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wikkend a:hover{
+    text-decoration: underline;
+}
+.lifestyle{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.life_style{
+    width: 45%;
+   
+}
+.life_style h4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: 'Ubuntu', sans-serif;
+}
+.life_style img{
+    width: 100%;
+}
+.life_style h1{
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 23px;
+}
+.life_style p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.life_style_2{
+    width: 45%;
+}
+.life_style_2 img{
+    width: 100%;
+}
+.life_style_2 h1{
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 23px;
+}
+.life_style_2 h4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: 'Ubuntu', sans-serif;
+}
+.life_style_2 p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.photo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   padding-top: 100px;
+}
+.liton{
+    width: 45%;
+    padding-bottom: 100px;
+}
+.liton img{
+    width: 100%;
+}
+.liton h4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: 'Ubuntu', sans-serif;
+}
+.liton h1{
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 23px;
+}
+.liton p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.liton_2{
+    width: 45%;
+    padding-bottom: 100px;
+}
+.liton_2 h1{
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 23px;
+}
+.liton_2 img{
+    width: 100%;
+}
+.liton_2 h4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: 'Ubuntu', sans-serif;
+}
+.liton_2 p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.sigup_section{
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 60px 0px;
+    
+}
+.singup_content{
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    
+   
+}
+.singup_content input{
+    border: none;
+    border-bottom: 1px solid;
+    background: transparent;
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 50px;
+
+}
+.singup_content h1{
+    padding-bottom: 55px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 27px;
+}
+.singup_content input:focus{
+    outline: none;
+}
+
+
+.t{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   padding-top: 100px;
+}
+.tareq{
+    width: 45%;
+    padding-bottom: 100px;
+}
+.tareq img{
+    width: 100%;
+}
+.tareq h4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: 'Ubuntu', sans-serif;
+}
+.tareq h1{
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 23px;
+}
+.tareq p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.taerq_2{
+    width: 45%;
+    padding-bottom: 100px;
+}
+.taerq_2 img{
+    width: 100%;
+}
+.taerq_2 h1{
+    padding-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 23px;
+}
+.taerq_2 h4{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: 'Ubuntu', sans-serif;
+}
+.taerq_2 p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.abir{
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.abir_1{
+   padding-top: 50px;
+   padding-bottom: 150px;
+}
+.abir_1 button{
+    background-color: transparent;
+    padding: 15px 10px;
+    border-radius: 10px;
+   border-color: black;
+}
+.alvi{
+    display: flex;
+    width: 100%;  
+}
+footer{
+width: 100%;
+background-color: #f0f0f0;
+display: flex;
+justify-content: space-between;
+height: 80px;
+}
+.terms{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.term{
+   padding-top: 15px;
+}
+.term ul{
+    display: flex;
+    
+}
+.term ul li{
+    list-style-type: none;
+    margin-left: 50px;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.follow{
+    padding-top: 15px;
+   
+}
+.follow ul{
+    display: flex;
+   
+}
+.follow ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+
+}
+.follow ul li a{
+    text-decoration: none;
+    padding-left: 50px;
+    color: #333;
+   
+
+}
+.singup_content{
+    position: relative;
+}
+.singup_content img{
+    position: absolute;
+    bottom: 3px;
+    right: 0px;
+    padding-bottom: 3px;
+
+    
+}
